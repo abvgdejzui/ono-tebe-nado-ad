@@ -6,32 +6,29 @@
     font-size: 18px;
 }
 
-.header-nav--link.active {
+.header__link.active {
     border-bottom: none;
 }
 
-.header-nav ul {
+.header__links-list {
     display: flex;
     gap: 26px;
     list-style-type: circle;
 }
 
-.header-nav li:first-child {
+.header__menu li:first-child {
     list-style-type: none;
 }
 
-.header-logo {
+.header__logo {
     display: block;
     width: 148px;
     border-bottom: none;
 }
 
-.header-address {
+.header__address {
     max-width: 240px;
     justify-self: end;
-}
-
-.header-address {
     font-style: normal;
 }
 

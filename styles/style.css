@@ -69,6 +69,13 @@ address {
   letter-spacing: 0.3em;
   text-transform: uppercase;
   margin-bottom: 106px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
 }
 
 .aligned-text {
@@ -86,7 +93,7 @@ address {
 .cover__description {
     display: flex;
     align-items: center;
-    gap: 107px;
+    justify-content: space-between;
 }
 
 .cover__description-text {
